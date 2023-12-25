@@ -673,7 +673,7 @@ nav {
     transition: 0.2s;
 }
 
-.btn_see:hover{
+.btn_see:hover {
     background-color: #2b2b2b;
     transform: scale(1.03);
     transition: 0.2s;
@@ -697,4 +697,32 @@ nav {
     padding: 80px 160px;
     gap: 20px;
     background: var(--Background, #2B2B2B);
+}
+
+.how {
+    color: var(--White, #FFF);
+    font-family: "Space Mono", monospace;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+
+.box_body_row2 {
+    padding: 80px 160px;
+    display: flex;
+    flex-direction: column;
+    align-self: stretch;
+    background-color: #2B2B2B;
+}
+
+.out {
+    color: var(--White, #FFF);
+    font-family: "Space Mono", monospace;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
 }
