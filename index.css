@@ -418,12 +418,20 @@ nav {
     gap: 20px;
     border-radius: 20px;
     background: #3B3B3B;
+    transition: 0.4s;
 }
-.avatar_img{
+
+.box_creator:hover {
+    background-color: #A259FF;
+    transition: 0.4s;
+}
+
+.avatar_img {
     width: 120px;
     height: 120px;
     margin-left: 45px;
 }
+
 .one {
     border-radius: 50%;
     background-color: #2B2B2B;
@@ -469,4 +477,59 @@ nav {
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
+}
+
+.box_body4 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 80px 160px;
+    gap: 30px;
+    background: var(--Background, #2B2B2B);
+}
+
+.categories {
+    color: var(--White, #FFF);
+    font-family: "Space Mono", monospace;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+
+.box_body_grid3 {
+    display: grid;
+    padding: 80px 160px;
+    flex-direction: column;
+    align-self: stretch;
+    background-color: #2B2B2B;
+    grid-template-columns: auto auto auto auto;
+    gap: 40px;
+}
+
+.cotegorii {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-radius: 20px;
+    background: #3B3B3B;
+    width: 240px;
+    height: 316px;
+    transition: 0.2s;
+}
+.cotegorii:hover{
+    background-color: #A259FF;
+    transform: scale(1.03);
+    transition: 0.2s;
+}
+.name_cotegor {
+    margin-left: 30px;
+    color: var(--White, #FFF);
+    font-family: "Space Mono", monospace;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
 }
