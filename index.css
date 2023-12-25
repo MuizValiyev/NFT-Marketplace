@@ -518,11 +518,13 @@ nav {
     height: 316px;
     transition: 0.2s;
 }
-.cotegorii:hover{
+
+.cotegorii:hover {
     background-color: #A259FF;
     transform: scale(1.03);
     transition: 0.2s;
 }
+
 .name_cotegor {
     margin-left: 30px;
     color: var(--White, #FFF);
@@ -532,4 +534,167 @@ nav {
     font-weight: 600;
     line-height: 140%;
     text-transform: capitalize;
+}
+
+.box_body5 {
+    display: flex;
+    flex-direction: column;
+}
+
+.more {
+    color: var(--White, #FFF);
+    font-family: "Space Mono", monospace;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+
+.trending {
+    color: var(--White, #FFF);
+    font-family: "Space Mono", monospace;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+
+.discover_box {
+    gap: 15px;
+    width: 330px;
+    height: 470px;
+    display: flex;
+    height: 469px;
+    flex-direction: column;
+    border-radius: 20px;
+    background: #3B3B3B;
+}
+
+.box_body_row1 {
+    padding: 80px 160px;
+    gap: 100px;
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    background-color: #2B2B2B;
+}
+
+.galaxy {
+    margin-left: 20px;
+    color: var(--White, #FFF);
+    font-family: "Space Mono", monospace;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+.row_box {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    gap: 10px;
+}
+
+.moon {
+    color: var(--White, #FFF);
+    font-family: "Space Mono", monospace;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.price {
+    color: #858584;
+    font-family: "Space Mono", monospace;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+.row_boxx {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.Highest_Bid {
+    color: #858584;
+    font-family: "Space Mono", monospace;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    margin-left: 180px;
+}
+
+.roww_boxx {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+}
+
+.ethh {
+    color: var(--White, #FFF);
+    font-family: "Space Mono", monospace;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.weth {
+    color: var(--White, #FFF);
+    font-family: "Space Mono", monospace;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    margin-left: 140px;
+}
+
+.btn_see {
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    height: 60px;
+    padding: 0px 50px;
+    margin-left: 175px;
+    align-items: center;
+    gap: 12px;
+    border-radius: 20px;
+    background-color: #A259FF;
+    border: 2px solid var(--Call-to-Action, #A259FF);
+    transition: 0.2s;
+}
+
+.btn_see:hover{
+    background-color: #2b2b2b;
+    transform: scale(1.03);
+    transition: 0.2s;
+}
+
+.seeall {
+    color: #FFF;
+    text-align: center;
+    font-family: "Space Mono", monospace;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.box_body_row {
+    justify-content: space-between;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 80px 160px;
+    gap: 20px;
+    background: var(--Background, #2B2B2B);
 }
