@@ -726,3 +726,131 @@ nav {
     line-height: 160%;
     text-transform: capitalize;
 }
+
+.box_find {
+    gap: 100px;
+    padding: 80px 160px;
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    background-color: #2B2B2B;
+}
+
+.one_box_find {
+    width: 330px;
+    height: 440px;
+    display: flex;
+    width: 330px;
+    padding: 10px 30px 30px 30px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+    background: var(--Background---Secondary, #3B3B3B);
+}
+
+.wallet {
+    color: #FFF;
+    text-align: center;
+    font-family: "Space Mono", monospace;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+}
+
+.corner {
+    color: var(--White, #FFF);
+    text-align: center;
+    font-family: "Space Mono", monospace;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.box_body6 {
+    gap: 100px;
+    padding: 80px 230px;
+    display: flex;
+    flex-direction: row;
+    align-self: stretch;
+    background-color: #2B2B2B;
+}
+
+.box_join {
+    flex-direction: row;
+    display: flex;
+    width: 1050px;
+    padding: 60px;
+    align-items: center;
+    gap: 80px;
+    border-radius: 20px;
+    background: #3B3B3B;
+}
+
+.box {
+    display: flex;
+    width: 425px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    flex-shrink: 0;
+}
+
+.digest {
+    color: var(--White, #FFF);
+    font-family: "Space Mono", monospace;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%;
+    text-transform: capitalize;
+}
+
+.inbox {
+    color: var(--White, #FFF);
+    font-family: "Space Mono", monospace;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+
+.inp-input {
+    display: flex;
+    height: 40px;
+    padding: 16px 0px 16px 20px;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+    border-radius: 20px;
+    background: var(--Text, #FFF);
+    width: 500px;
+    flex-direction: row;
+}
+
+.email {
+width: 350px;
+display: flex;
+height: 40px;
+border-radius: 20px;
+padding: 0px 20px;
+}
+
+button {
+    margin-top: 10px;
+    width: 350px;
+    display: flex;
+    height: 40px;
+    padding: 0px 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    border-radius: 20px;
+    background: var(--Call-to-Action, #A259FF);
+    color: #FFF;
+    cursor: pointer;
+}
