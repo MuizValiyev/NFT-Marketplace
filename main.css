@@ -831,11 +831,12 @@ nav {
 }
 
 .email {
-width: 350px;
-display: flex;
-height: 40px;
-border-radius: 20px;
-padding: 0px 20px;
+    width: 350px;
+    display: flex;
+    height: 40px;
+    border-radius: 20px;
+    padding: 0px 20px;
+    outline: none;
 }
 
 button {
