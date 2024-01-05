@@ -1061,6 +1061,10 @@ button {
     .box_body6 {
         padding: 80px 120px;
     }
+    .box_column_3{
+        padding-right: 0px;
+    }
+
 }
 
 @media screen and (max-width:1200px) {
@@ -1078,6 +1082,9 @@ button {
     }
     .box_body6 {
         padding: 80px 80px;
+    }
+    .box_column_1{
+        padding-right: 40px;
     }
 }
 
@@ -1126,6 +1133,15 @@ button {
     .box_body6 {
         padding: 80px 20px;
     }
+    .box_row_footer{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    footer{
+        padding: 60px 80px;
+    }
+
 }
 
 @media screen and (max-width:1000px) {
@@ -1155,9 +1171,6 @@ button {
         flex-direction: column;
         width: 600px;
         justify-content: center;
-    }
-    .inp-form{
-        margin-left: 30px;
     }
 }
 
