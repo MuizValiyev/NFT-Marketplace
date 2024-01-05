@@ -1238,3 +1238,37 @@ button {
         padding: 40px 50px;
     }
 }
+
+@media screen and (max-width: 600px) {
+nav{
+    padding: 10px;
+}
+    .box_body_grid1{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .box_body3{
+        flex-direction: column;
+        padding: 40px;
+    }
+    .box_body_row{
+        flex-direction: column;
+        display: flex;
+        padding: 40px;
+    }
+    .btn_see{
+        margin-left: 0px;
+    }
+    .box_body_row1{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .box_find{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .box_join{
+        width: 500px;
+    }
+
+}
