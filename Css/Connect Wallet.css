@@ -193,10 +193,11 @@ nav {
     text-transform: capitalize;
 }
 
-.donat_btn:hover{
+.donat_btn:hover {
     transform: scale(1.03);
     transition: 0.2s;
 }
+
 footer {
     display: flex;
     padding: 40px 195px;
@@ -366,6 +367,125 @@ button {
     font-weight: 400;
     line-height: 140%;
 }
-@media screen and (max-width: 1920px){
+.nav_svg{
+    display: none;
+}
+@media screen and (max-width: 1920px) {
+    .box_body1_1 {
+        margin-left: 500px;
+        padding: 100px;
+    }
+}
+@media screen and (max-width: 1800px) {
+    .box_body1_1 {
+        margin-left: 400px;
+    }
+}
+@media screen and (max-width: 1680px) {
+    .box_body1_1 {
+        margin-left: 300px;
+    }
+}
+@media screen and (max-width: 1560px) {
+    .box_body1_1 {
+        margin-left: 200px;
+    }
+}
+@media screen and (max-width: 1440px) {
+    .box_body1_1 {
+        margin-left: 100px;
+    }
+}
 
+@media screen and (max-width: 1320px) {
+    .box_body1_1 {
+        margin-left: 0px;
+    }
+    footer{
+        padding: 40px 140px;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .connect_img{
+        width: 560px;
+        height: 610px;
+    }
+    .box_body1_1{
+        padding: 50px;
+    }
+    .box_column_2, .box_column_3{
+        padding-right: 0px;
+    }
+}
+@media screen and (max-width: 1080px) {
+    .connect_img{
+        width: 490px;
+        height: 540px;
+    }
+    .box_body1_1{
+        padding: 20px;
+    }
+    .nav_svg{
+        display: block;
+    }
+    .btn_nav, .btn_nav2, .btn_nav3, .sing{
+        display: none;
+    }
+    footer{
+        padding: 40px 100px;
+        }
+}
+
+@media screen and (max-width: 960px) {
+    .connect_img{
+        width: 610px;
+        height: 660px;
+    }
+    .box_body1_1{
+        padding: 50px;
+        width: 610px;
+    }
+    .box_body1{
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        padding: 40px;
+    }
+}
+@media screen and (max-width:840px) {
+    .box_column_1{
+        padding-right: 20px;
+    }
+}
+@media screen and (max-width: 720px) {
+    .connect_img{
+        width: 490px;
+        height: 540px;
+    }
+    .box_body1_1{
+        padding: 50px;
+        width: 560px;
+    }   
+    .box_row_footer{
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        padding: 50px;
+    }
+    .box_column2, .box_column_3{
+        margin-top: 20px;
+    }
+
+}
+@media screen and (max-width: 480px) {
+    .connect_img{
+        width: 440px;
+        height: 490px;
+    }
+    .box_body1_1{
+        padding: 20px;
+        width: 440px;
+    }
 }

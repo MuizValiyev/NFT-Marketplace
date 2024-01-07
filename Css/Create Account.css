@@ -487,6 +487,9 @@ button {
     width: 510px;
     height: 610px;
 }
+.box_column_2, .box_column_3{
+    padding-right: 0px;
+}
 }
 
 @media screen and (max-width: 1080px) {
@@ -529,6 +532,9 @@ button {
     footer{
         padding: 40px;
     }
+    .box_column_1{
+        padding-right: 20px;
+    }
 }
 @media screen and (max-width: 720px){
     .img_create{
@@ -543,7 +549,7 @@ button {
     footer{
         padding: 50px;
     }
-    .box_column2, .box_column_3{
+    .box_column_2, .box_column_3{
         margin-top: 20px;
     }
 }
