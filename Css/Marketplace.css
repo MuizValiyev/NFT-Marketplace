@@ -203,7 +203,8 @@ hr {
     align-items: center;
     width: 500px;
 }
-.collections_box{
+
+.collections_box {
     padding: 0px 25px;
     justify-content: center;
     align-items: center;
@@ -504,4 +505,198 @@ button {
     font-style: normal;
     font-weight: 400;
     line-height: 140%;
+}
+
+
+@media screen and (max-width: 1920px) {}
+
+@media screen and (max-width: 1800px) {}
+
+@media screen and (max-width: 1680px) {}
+
+@media screen and (max-width: 1560px) {}
+
+@media screen and (max-width: 1440px) {}
+
+@media screen and (max-width: 1320px) {
+
+    footer {
+        padding: 40px 140px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .box_column_2,
+    .box_column_3 {
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .nav_svg {
+        display: block;
+    }
+
+    .btn_nav,
+    .btn_nav2,
+    .btn_nav3,
+    .sing {
+        display: none;
+    }
+
+    footer {
+        padding: 40px 100px;
+    }
+    .nfts_box,
+    .collections_box {
+        width: 490px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+    .box_body,
+    .box,
+    hr,
+    .cont {
+        width: 960px;
+    }
+
+    .Browse,
+    .more,
+    .form_search {
+        margin-left: 30px;
+    }
+
+    .form_search {
+        width: 900px;
+    }
+
+    footer {
+        padding: 40px;
+    }
+    .nfts_box,
+    .collections_box {
+        width: 430px;
+    }
+    .box_grid{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+@media screen and (max-width:840px) {
+    .box_column_1 {
+        padding-right: 20px;
+    }
+
+    .box_body,
+    .box,
+    hr,
+    .cont {
+        width: 840px;
+    }
+
+    .Browse,
+    .more,
+    .form_search {
+        margin-left: 20px;
+    }
+
+    .form_search {
+        width: 800px;
+    }
+
+    .nfts_box,
+    .collections_box {
+        width: 370px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .box_row_footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        padding: 50px;
+    }
+
+    .box_column2,
+    .box_column_3 {
+        margin-top: 20px;
+    }
+
+    .box_body,
+    .box,
+    hr,
+    .cont {
+        width: 720px;
+    }
+
+    .Browse,
+    .more,
+    .form_search {
+        margin-left: 10px;
+    }
+
+    .form_search {
+        width: 680px;
+    }
+
+    .nfts_box,
+    .collections_box {
+        width: 310px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .box_body,
+    .box,
+    hr,
+    .cont {
+        width: 600px;
+    }
+
+    .form_search {
+        width: 560px;
+    }
+
+    .nfts_box,
+    .collections_box {
+        width: 250px;
+    }
+    .box_grid{
+        display: grid;
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .box_nava {
+        gap: 30px;
+    }
+
+    .box_body,
+    .box,
+    hr,
+    .cont {
+        width: 480px;
+    }
+
+    .box_body {
+        padding: 40px 0px;
+    }
+
+    .form_search {
+        width: 440px;
+    }
+
+    .nfts_box,
+    .collections_box {
+        width: 190px;
+    }
 }
