@@ -483,7 +483,7 @@ footer {
     outline: none;
 }
 
-button {
+.btn-email {
     margin-top: 10px;
     width: 350px;
     display: flex;
@@ -548,6 +548,7 @@ button {
     footer {
         padding: 40px 100px;
     }
+
     .nfts_box,
     .collections_box {
         width: 490px;
@@ -576,11 +577,13 @@ button {
     footer {
         padding: 40px;
     }
+
     .nfts_box,
     .collections_box {
         width: 430px;
     }
-    .box_grid{
+
+    .box_grid {
         display: grid;
         grid-template-columns: auto auto;
     }
@@ -669,7 +672,8 @@ button {
     .collections_box {
         width: 250px;
     }
-    .box_grid{
+
+    .box_grid {
         display: grid;
         grid-template-columns: auto;
     }
