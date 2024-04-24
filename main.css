@@ -830,19 +830,6 @@ nav {
     text-transform: capitalize;
 }
 
-.inp-input {
-    display: flex;
-    height: 40px;
-    padding: 16px 0px 16px 20px;
-    align-items: center;
-    gap: 12px;
-    align-self: stretch;
-    border-radius: 20px;
-    background: var(--Text, #FFF);
-    width: 500px;
-    flex-direction: row;
-}
-
 .email {
     width: 350px;
     display: flex;
@@ -991,19 +978,6 @@ footer {
     line-height: 140%;
 }
 
-
-.inp-input {
-    display: flex;
-    height: 40px;
-    padding: 16px 0px 16px 20px;
-    align-items: center;
-    gap: 12px;
-    align-self: stretch;
-    border-radius: 20px;
-    background: var(--Text, #FFF);
-    width: 500px;
-    flex-direction: row;
-}
 
 .email {
     width: 350px;
